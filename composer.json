@@ -1,0 +1,27 @@
+{
+  "name": "x-multibyte/laravel-enhanced",
+  "type": "library",
+  "require": {
+    "laravel/laravel": "*"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "XMultibyte\\Enhanced\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "x-multibyte",
+      "email": "roy@xmultibyte.com"
+    }
+  ],
+  "extra": {
+    "laravel": {
+      "providers": [
+        "XMultibyte\\Enhanced\\EnhancedServiceProvider"
+      ]
+    }
+  },
+  "version": "1.0.0"
+}
